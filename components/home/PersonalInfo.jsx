@@ -25,7 +25,7 @@ const PersonalInfo = () => {
           width={135}
           height={134}
           className="personImg"
-          style={{ objectFit: "none" }}
+          style={{ objectFit: "cover" }}
         />
         <div className="personNameCarrer">
           <h2>
