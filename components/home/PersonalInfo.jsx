@@ -20,7 +20,13 @@ const PersonalInfo = () => {
       <Image src={doted3} width={500} height={270} className="dotedImage" />
       <Image src={apecGaz} width={197} height={96} />
       <div className="personalInfo">
-        <Image src={rnPerson} width={134} height={134} className="personImg" />
+        <Image
+          src={rnPerson}
+          width={135}
+          height={134}
+          className="personImg"
+          style={{ objectFit: "none" }}
+        />
         <div className="personNameCarrer">
           <h2>
             Mr.MOHAMAD
