@@ -232,6 +232,7 @@ body {
   .mentionBrand > p {
     font-family: "Montserrat";
     font-weight: 600;
+    color: #ffffff;
     font-style: italic;
     font-size: 15px;
   }
