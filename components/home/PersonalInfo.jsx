@@ -65,7 +65,7 @@ const PersonalInfo = () => {
           </h3>
         </div>
         <div className="mentionBrand">
-          <p>Powered by </p> <Image src={apecWhite} width={50} height={50} />
+          <p>Powered by </p> <Image src={apecWhite} width={45} height={45} />
         </div>
       </div>
       <div className="download  redIcon">

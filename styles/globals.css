@@ -107,6 +107,12 @@ body {
   src: url("../public//assets//fonts/Montserrat-SemiBold.ttf");
   font-weight: 600;
 }
+@font-face {
+  font-family: "Montserrat";
+  src: url("../public//assets//fonts/Montserrat-SemiBoldItalic.ttf");
+  font-weight: 600;
+  font-style: italic;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -141,7 +147,7 @@ body {
     align-items: center;
     justify-content: space-between;
 
-    row-gap: 18px;
+    row-gap: 25px;
     padding: 70px 0 0 0;
     border-radius: 37px;
     z-index: 10;
@@ -225,7 +231,8 @@ body {
   .mentionBrand > p {
     font-family: "Montserrat";
     font-weight: 600;
-    font-size: 16px;
+    font-style: italic;
+    font-size: 15 px;
   }
   .download {
     text-align: center;
@@ -259,7 +266,7 @@ body {
   .personalInfo {
     margin-top: 30px;
     padding: 10px 0;
-    row-gap: 10px;
+    row-gap: 12px;
   }
   .personImg {
     margin-top: -80px;
