@@ -233,7 +233,7 @@ body {
     font-family: "Montserrat";
     font-weight: 600;
     font-style: italic;
-    font-size: 15 px;
+    font-size: 15px;
   }
   .download {
     text-align: center;
@@ -266,10 +266,17 @@ body {
   }
   .personalInfo {
     margin-top: 30px;
-    padding: 10px 0;
-    row-gap: 12px;
+    padding: 4px 0;
+    row-gap: 20px;
   }
   .personImg {
-    margin-top: -80px;
+    margin-top: -70px;
+  }
+
+  .personNameCarrer > p {
+    font-size: 12pt;
+  }
+  .personContact {
+    row-gap: 15px;
   }
 }
